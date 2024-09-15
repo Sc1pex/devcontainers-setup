@@ -6,7 +6,7 @@ This features installs and configures using [my dotfiles](https://github.com/Sc1
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "features": {
-    "ghcr.io/devcontainers/sc1pex/setup:0.1",
+    "ghcr.io/sc1pex/devcontainers-setup/setup:0",
   }
 }
 ```
