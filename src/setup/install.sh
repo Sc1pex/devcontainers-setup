@@ -24,4 +24,4 @@ curl -sL https://github.com/starship/starship/releases/download/v1.20.1/starship
 
 echo "Downloading configs"
 rm -rf /home/vscode/.config
-git clone https://github.com/Sc1pex/dotfiles /home/vscode/.config
+su vscode -c "git clone https://github.com/Sc1pex/dotfiles /home/vscode/.config"
