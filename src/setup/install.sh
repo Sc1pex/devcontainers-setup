@@ -20,9 +20,4 @@ echo "Downloading tmux and fish"
 apt-get install tmux fish -y
 
 echo "Downloading starship"
-
-curl -sL https://github.com/starship/starship/releases/download/v1.20.1/starship-x86_64-unknown-linux-gnu.tar.gz | tar -xzC /usr/local 2>&1
-
-cd /usr/local
-mv starship-x86_64-unknown-linux-gnu/starship /usr/local/bin/
-rm -r starship-x86_64-unknown-linux-gnu
+curl -sL https://github.com/starship/starship/releases/download/v1.20.1/starship-x86_64-unknown-linux-gnu.tar.gz | tar -xzC /usr/local/bin 2>&1
