@@ -17,7 +17,7 @@ mv nvim-linux64 nvim
 ln -sf /usr/local/nvim/bin/nvim /usr/local/bin/nvim
 
 echo "Downloading tmux fish"
-apt-get install tmux fish rust-eza -y
+apt-get install tmux fish -y
 
 echo "Downloading starship"
 curl -sL https://github.com/starship/starship/releases/download/v1.20.1/starship-x86_64-unknown-linux-gnu.tar.gz | tar -xzC /usr/local/bin 2>&1
