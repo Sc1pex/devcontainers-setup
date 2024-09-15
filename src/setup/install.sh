@@ -3,6 +3,11 @@ set -e
 
 echo "Activating feature 'setup'"
 
+echo "Downloading dependencies"
+apt-get update -y
+apt-get upgrade -y
+apt-get install curl
+
 echo "Downloading neovim 0.10.1"
 
 curl -sL https://github.com/neovim/neovim/releases/download/v0.10.1/nvim-linux64.tar.gz | tar -xzC /usr/local >&1
