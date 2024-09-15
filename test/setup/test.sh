@@ -9,6 +9,7 @@ source dev-container-features-test-lib
 check "execute command" nvim --version
 check "execute command" tmux -V
 check "execute command" fish --version
+check "execute command" starship --version
 
 # Report results
 reportResults
