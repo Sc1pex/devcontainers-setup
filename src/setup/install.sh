@@ -14,4 +14,4 @@ curl -sL https://github.com/neovim/neovim/releases/download/v0.10.1/nvim-linux64
 
 cd /usr/local
 mv nvim-linux64 nvim
-ln -sf /usr/local/nvim/bin/nvim /usr/local/nvim
+ln -sf /usr/local/nvim/bin/nvim /usr/local/bin/nvim
