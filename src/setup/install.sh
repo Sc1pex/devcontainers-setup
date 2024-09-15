@@ -16,5 +16,5 @@ cd /usr/local
 mv nvim-linux64 nvim
 ln -sf /usr/local/nvim/bin/nvim /usr/local/bin/nvim
 
-echo "Downloading tmux"
-apt-get install tmux -y
+echo "Downloading tmux and fish"
+apt-get install tmux fish -y

@@ -8,6 +8,7 @@ source dev-container-features-test-lib
 # Feature-specific tests
 check "execute command" nvim --version
 check "execute command" tmux -V
+check "execute command" fish --version
 
 # Report results
 reportResults
