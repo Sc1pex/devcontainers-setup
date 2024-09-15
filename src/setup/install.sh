@@ -23,3 +23,5 @@ echo "Downloading starship"
 curl -sL https://github.com/starship/starship/releases/download/v1.20.1/starship-x86_64-unknown-linux-gnu.tar.gz | tar -xzC /usr/local/bin 2>&1
 
 echo "Downloading configs"
+rm -rf /home/vscode/.config
+git clone https://github.com/Sc1pex/dotfiles /home/vscode/.config
