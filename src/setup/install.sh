@@ -16,11 +16,14 @@ cd /usr/local
 mv nvim-linux64 nvim
 ln -sf /usr/local/nvim/bin/nvim /usr/local/bin/nvim
 
-echo "Downloading tmux fish and eza"
+echo "Downloading tmux fish"
 apt-get install tmux fish rust-eza -y
 
 echo "Downloading starship"
 curl -sL https://github.com/starship/starship/releases/download/v1.20.1/starship-x86_64-unknown-linux-gnu.tar.gz | tar -xzC /usr/local/bin 2>&1
+
+echo "Downloading eza"
+curl -sL https://github.com/eza-community/eza/releases/download/v0.19.3/eza_x86_64-unknown-linux-gnu.tar.gz | tar -xzC /usr/local/bin 2>&1
 
 echo "Downloading configs"
 rm -rf /home/vscode/.config
