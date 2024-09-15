@@ -1,0 +1,8 @@
+{
+  "name": "Dev Setup",
+  "id": "setup",
+  "version": "0.1",
+  "description": "A feature to setup my development workflow",
+  "options": {},
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
