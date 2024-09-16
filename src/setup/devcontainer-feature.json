@@ -5,10 +5,12 @@
   "description": "A feature to setup my development workflow",
   "options": {
     "git_username": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     },
     "git_email": {
-      "type": "string"
+      "type": "string",
+      "default": ""
     }
   },
   "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
