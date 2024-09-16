@@ -15,7 +15,8 @@ A feature to setup my development workflow
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-
+| git_username | - | string | - |
+| git_email | - | string | - |
 
 
 
