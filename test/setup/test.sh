@@ -10,6 +10,7 @@ check "execute command" nvim --version
 check "execute command" tmux -V
 check "execute command" fish --version
 check "execute command" starship --version
+check "execute command" just --version
 
 # Report results
 reportResults
