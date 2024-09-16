@@ -1,8 +1,15 @@
 {
   "name": "Dev Setup",
   "id": "setup",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "A feature to setup my development workflow",
-  "options": {},
+  "options": {
+    "git_username": {
+      "type": "string"
+    },
+    "git_email": {
+      "type": "string"
+    }
+  },
   "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }

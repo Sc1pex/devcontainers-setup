@@ -28,3 +28,7 @@ curl -sL https://github.com/eza-community/eza/releases/download/v0.19.3/eza_x86_
 echo "Downloading configs"
 rm -rf /home/vscode/.config
 su vscode -c "git clone https://github.com/Sc1pex/dotfiles /home/vscode/.config"
+
+echo "Configure git credential"
+git config --global user.name "$GIT_USERNAME"
+git config --global user.email "$GIT_EMAIL"
