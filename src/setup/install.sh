@@ -6,7 +6,7 @@ echo "Activating feature 'setup'"
 echo "Downloading dependencies"
 apt-get update -y
 apt-get upgrade -y
-apt-get install curl git -y
+apt-get install curl git socat -y
 
 echo "Downloading neovim 0.10.1"
 
