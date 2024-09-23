@@ -1,7 +1,7 @@
 {
   "name": "Dev Setup",
   "id": "setup",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "A feature to setup my development workflow",
   "options": {
     "git_username": {
